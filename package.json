@@ -1,0 +1,28 @@
+{
+  "name": "bfpackage",
+  "version": "0.0.1",
+  "description": "A package manager for installing things in places.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pauljz/bfpackage.git"
+  },
+  "main": "lib",
+  "main": "lib",
+  "bin": "lib/bfpackage.js",
+  "dependencies": {
+    "mkdirp": "0.3.x",
+    "wrench": "1.5.x",
+    "nopt": "2.1.x",
+    "optimist": "0.6.x",
+    "findit": "0.1.x",
+    "buffertools": "1.1.x",
+    "async": "0.2.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pauljz",
+  "license": "MIT",
+  "preferGlobal": true
+}
